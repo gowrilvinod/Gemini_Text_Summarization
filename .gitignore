@@ -1,0 +1,38 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+venv/
+env/
+env.bak/
+
+# Ignore pipenv and poetry environments
+Pipfile.lock
+poetry.lock
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+
+# Ignore logs and other generated files
+*.log
+*.csv
+*.json
+
+# Ignore model files and directories
+config.json
+pytorch_model.bin
+special_tokens_map.json
+spiece.model
+tokenizer.json
+tokenizer_config.json
+
+# Ignore any other temporary or local files
+*.bak
+*.swp
+*.swo
+*.DS_Store
